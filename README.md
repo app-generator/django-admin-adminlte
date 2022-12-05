@@ -1,6 +1,6 @@
-# [Django Admin Material](https://github.com/app-generator/django-admin-material-dashboard)
+# [Django AdminLTE Theme](https://github.com/app-generator/django-admin-adminlte)
 
-Modern template for **Django Admin Interface** coded on top of **Material Dashboard**, an open-source `Boostrap 5` design from `Creative-Tim`.
+Modern template for **Django Admin Interface** coded on top of **AdminLTE**, the iconic dashboard template.
 
 > Actively supported by [AppSeed](https://appseed.us/) via `Email` and `Discord`.
 
@@ -8,9 +8,8 @@ Modern template for **Django Admin Interface** coded on top of **Material Dashbo
 
 **Links & Resources**
 
-- UI Kit: [Material Dashboard BS5](https://www.creative-tim.com/product/material-dashboard?AFFILIATE=128200) `v3.0.5` by Creative-Tim
-- [Django Material Dashboard](https://django-material-dashboard.appseed-srv1.com/) - LIVE Demo
-- [Django Material Dashboard](https://github.com/app-generator/django-admin-material-dashboard_p) - `playground project`
+- UI Kit: [AdminLTE](https://github.com/ColorlibHQ/AdminLTE) `v3.2.0` by ColorLib
+- [Django AdminLTE](https://adminlte-django.appseed-srv1.com/) - LIVE Demo
 
 <br />
 
@@ -18,9 +17,9 @@ Modern template for **Django Admin Interface** coded on top of **Material Dashbo
 
 <br />
 
-## Why `Django Admin Material`
+## Why `Django AdminLTE Theme`
 
-- Modern `Bootstrap 5` Design
+- Modern `Bootstrap` Design
 - `Responsive Interface`
 - `Minimal Template` overriding
 - `Easy integration`
@@ -34,9 +33,9 @@ Modern template for **Django Admin Interface** coded on top of **Material Dashbo
 > **Install the package** via `PIP` 
 
 ```bash
-$ pip install django-admin-material-dashboard
+$ pip install django-admin-adminlte
 // OR
-$ pip install git+https://github.com/app-generator/django-admin-material-dashboard.git
+$ pip install git+https://github.com/app-generator/django-admin-adminlte.git
 ```
 
 <br />
@@ -46,7 +45,7 @@ $ pip install git+https://github.com/app-generator/django-admin-material-dashboa
 ```python
     INSTALLED_APPS = (
         ...
-        'admin_material.apps.AdminMaterialDashboardConfig',
+        'admin_material.apps.AdminLteDashboardConfig',
         'django.contrib.admin',
     )
 ```
@@ -70,7 +69,7 @@ $ pip install git+https://github.com/app-generator/django-admin-material-dashboa
 
     urlpatterns = [
         ...
-        path('', include('admin_material.urls')),
+        path('', include('admin_adminlte.urls')),
     ]
 ```
 
@@ -104,21 +103,9 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 ## Screenshots
 
-This design is a pixel-perfect [Bootstrap 5](https://www.admin-dashboards.com/bootstrap-5-templates/) Dashboard with a fresh, new design inspired by Google's Material Design. **Material Dashboard** is built with over 60 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining. 
-
-<br />
-
-> **[Django Admin Material](https://github.com/app-generator/django-admin-material-dashboard)** - `Admin Section` 
-
-![Django Admin Material Dashboard - Admin dashboard page.](https://user-images.githubusercontent.com/51070104/196743760-6e0e1930-8233-421c-ac53-d65c273b00dc.png)
-
-<br />
-
-> **[Django Admin Material](https://github.com/app-generator/django-admin-material-dashboard)** - `Admin Widgets`
-
-![Django Admin Material Dashboard - New User Page.](https://user-images.githubusercontent.com/51070104/196743821-2e140dd8-fe15-4615-9e9f-0467900b1a1b.png)
+@ToDo
 
 <br />
 
 ---
-**[Django Admin Material](https://github.com/app-generator/django-admin-material-dashboard)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**
+**[Django AdminLTE Theme](https://github.com/app-generator/django-admin-adminlte)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**

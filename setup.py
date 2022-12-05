@@ -7,15 +7,15 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-name='django-admin-material-dashboard',
-version='1.0.5',
+name='django-admin-adminlte',
+version='0.0.1',
 zip_safe=False,
 packages=find_packages(),
 include_package_data=True,
 description='Modern template for Django admin interface',
 long_description=README,
 long_description_content_type="text/markdown",
-url='https://github.com/app-generator/django-admin-material-dashboard',
+url='https://github.com/app-generator/django-admin-adminlte',
 author='AppSeed.us',
 author_email='support@appseed.us',
 license='MIT License',
