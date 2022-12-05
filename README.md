@@ -45,7 +45,7 @@ $ pip install git+https://github.com/app-generator/django-admin-adminlte.git
 ```python
     INSTALLED_APPS = (
         ...
-        'admin_material.apps.AdminLteDashboardConfig',
+        'admin_adminlte.apps.AdminLteDashboardConfig',
         'django.contrib.admin',
     )
 ```
