@@ -10,6 +10,7 @@ Modern template for **Django Admin Interface** coded on top of **AdminLTE**, the
 
 - UI Kit: [AdminLTE](https://github.com/ColorlibHQ/AdminLTE) `v3.2.0` by ColorLib
 - [Django AdminLTE](https://adminlte-django.appseed-srv1.com/) - LIVE Demo
+- [Django AdminLTE](https://github.com/app-generator/django-admin-adminlte_p) - `playground project`
 
 <br />
 
