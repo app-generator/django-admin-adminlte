@@ -45,7 +45,7 @@ $ pip install git+https://github.com/app-generator/django-admin-adminlte.git
 ```python
     INSTALLED_APPS = (
         ...
-        'admin_adminlte.apps.AdminLteDashboardConfig',
+        'admin_adminlte.apps.AdminAdminlteConfig',
         'django.contrib.admin',
     )
 ```
@@ -62,7 +62,7 @@ $ pip install git+https://github.com/app-generator/django-admin-adminlte.git
 
 <br />
 
-> Add `admin_material` urls in your Django Project `urls.py` file
+> Add `admin_adminlte` urls in your Django Project `urls.py` file
 
 ```python
     from django.urls import path, include
