@@ -25,6 +25,8 @@ Modern template for **Django Admin Interface** coded on top of **AdminLTE**, the
 - `Minimal Template` overriding
 - `Easy integration`
 
+For newcomers, [AdminLTE](https://appseed.us/product/adminlte/) is a fully responsive administration template. Based on Bootstrap framework and also the JS/jQuery plugin. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops.
+
 <br />
 
 ## How to use it
@@ -104,7 +106,19 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 ## Screenshots
 
-@ToDo
+![Django AdminLTE Theme - SignIN Page (crafted by AppSeed).](https://user-images.githubusercontent.com/51070104/206859978-d0aae8a7-9251-44ff-8090-c11b3669b18a.jpg)
+
+<br />
+
+> [Django AdminLTE Theme](https://github.com/app-generator/django-admin-adminlte) - `Calendar Page`
+
+![Django AdminLTE Theme - Calendar Widget (crafted by AppSeed).](https://user-images.githubusercontent.com/51070104/206860019-c14536c2-60d1-40d6-99ef-c0efeafdddd1.jpg)
+
+<br />
+
+> [Django AdminLTE Theme](https://github.com/app-generator/django-admin-adminlte) - `Dark Mode`
+
+![Django AdminLTE Theme - Dark Mode Activated (crafted by AppSeed).](https://user-images.githubusercontent.com/51070104/206860071-70f9cd53-65f5-4f6f-a585-6a8340cdc69c.jpg)
 
 <br />
 
