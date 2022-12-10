@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [0.0.3] 2022-12-10
+### Changes
+
+- PRE-Release: Fix missing assets
+
 ## [0.0.2] 2022-12-08
 ### Changes
 
