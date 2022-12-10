@@ -17,7 +17,11 @@
         <img src="{% static 'dist/img/user2-160x160.jpg' %}" class="img-circle elevation-2" alt="User Image">
       </div>
       <div class="info">
-        <a href="#" class="d-block">Alexander Pierce</a>
+        {% if request.user.is_authenticated %}
+          <a href="#" class="d-block">{{request.user.username}}</a>
+        {% else %}
+          <a href="#" class="d-block">Alexander Pierce</a>
+        {% endif %}        
       </div>
     </div>
 
@@ -137,6 +141,7 @@
             </p>
           </a>
         </li>
+        <!-- 
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-copy"></i>
@@ -197,6 +202,7 @@
             </li>
           </ul>
         </li>
+        -->
         <li class="nav-item {% if 'charts' in parent %} menu-open {% endif %}">
           <a href="#" class="nav-link {% if 'charts' in parent %}active{% endif %}">
             <i class="nav-icon fas fa-chart-pie"></i>
@@ -212,6 +218,7 @@
                 <p>ChartJS</p>
               </a>
             </li>
+            <!--
             <li class="nav-item">
               <a href="#" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
@@ -230,8 +237,10 @@
                 <p>uPlot</p>
               </a>
             </li>
+            -->
           </ul>
         </li>
+        <!--
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-tree"></i>
@@ -291,6 +300,7 @@
             </li>
           </ul>
         </li>
+        -->
         <li class="nav-item {% if 'forms' in parent %} menu-open {% endif %}">
           <a href="#" class="nav-link {% if 'forms' in parent %} active {% endif %}">
             <i class="nav-icon fas fa-edit"></i>
@@ -307,6 +317,7 @@
                 <p>General Elements</p>
               </a>
             </li>
+            <!--
             <li class="nav-item">
               <a href="#" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
@@ -325,8 +336,10 @@
                 <p>Validation</p>
               </a>
             </li>
+            -->
           </ul>
         </li>
+        <!--
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-table"></i>
@@ -356,6 +369,7 @@
             </li>
           </ul>
         </li>
+        -->
         <li class="nav-header">EXAMPLES</li>
         <li class="nav-item">
           <a href="{% url 'calendar' %}" class="nav-link {% if 'calendar' in segment %} active {% endif %} ">
@@ -366,6 +380,7 @@
             </p>
           </a>
         </li>
+        <!--
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="nav-icon far fa-image"></i>
@@ -382,6 +397,8 @@
             </p>
           </a>
         </li>
+        -->
+        <!--
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="nav-icon far fa-envelope"></i>
@@ -411,6 +428,8 @@
             </li>
           </ul>
         </li>
+        -->
+        <!--
         <li class="nav-item {% if 'pages' in parent %} menu-open {% endif %}">
           <a href="#" class="nav-link {% if 'pages' in parent %} active {% endif %}">
             <i class="nav-icon fas fa-book"></i>
@@ -482,6 +501,8 @@
             </li>
           </ul>
         </li>
+        -->
+        <!--
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="nav-icon far fa-plus-square"></i>
@@ -611,6 +632,8 @@
             </li>
           </ul>
         </li>
+        -->
+        <!--
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-search"></i>
@@ -634,13 +657,16 @@
             </li>
           </ul>
         </li>
+        -->
         <li class="nav-header">MISCELLANEOUS</li>
+        <!--
         <li class="nav-item">
           <a href="#" class="nav-link">
             <i class="nav-icon fas fa-ellipsis-h"></i>
             <p>Tabbed IFrame Plugin</p>
           </a>
         </li>
+        -->
         <li class="nav-item">
           <a href="https://adminlte.io/docs/3.1/" class="nav-link">
             <i class="nav-icon fas fa-file"></i>
@@ -732,6 +758,36 @@
           </a>
         </li>
         {% endif %}
+
+        {% if request.user.is_authenticated %}
+        <li class="nav-item">
+          <a href="{% url 'logout' %}" class="nav-link">
+            <i class="fa fa-sign-out-alt nav-icon"></i>
+            <p>Logout</p>
+          </a>
+        </li>
+        {% else %}
+        <li class="nav-item">
+          <a href="{% url 'login' %}" class="nav-link">
+            <i class="fa fa-sign-in-alt nav-icon"></i>
+            <p>Login</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{% url 'register' %}" class="nav-link">
+            <i class="fa fa-user-plus nav-icon"></i>
+            <p>Register</p>
+          </a>
+        </li>        
+        {% endif %} 
+        
+        <li class="nav-item">
+          <a target="_blank" href="https://appseed.us/support/" class="nav-link">
+            <i class="fa fa-rocket text-danger nav-icon"></i>
+            <p>Support</p>
+          </a>
+        </li>         
+        
       </ul>
     </nav>
     <!-- /.sidebar-menu -->
