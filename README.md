@@ -1,6 +1,6 @@
-# [Django AdminLTE Theme](https://github.com/app-generator/django-admin-adminlte)
+# [Django AdminLTE Theme](https://appseed.us/product/adminlte/django/)
 
-Modern template for **Django Admin Interface** coded on top of **AdminLTE**, the iconic dashboard template.
+Modern template for **Django Admin Interface** coded on top of **[AdminLTE](https://appseed.us/product/adminlte/django/)**, the iconic dashboard template.
 
 > Actively supported by [AppSeed](https://appseed.us/) via `Email` and `Discord`.
 
@@ -8,9 +8,9 @@ Modern template for **Django Admin Interface** coded on top of **AdminLTE**, the
 
 **Links & Resources**
 
+- [Django AdminLTE](https://appseed.us/product/adminlte/django/) - `Product page`
+  - `Features`: Fully-configured, `CI/CD` via Render
 - UI Kit: [AdminLTE](https://github.com/ColorlibHQ/AdminLTE) `v3.2.0` by ColorLib
-- [Django AdminLTE](https://adminlte-django.appseed-srv1.com/) - LIVE Demo
-- [Django AdminLTE](https://github.com/app-generator/django-admin-adminlte_p) - `playground project`
 
 <br />
 
@@ -20,7 +20,7 @@ Modern template for **Django Admin Interface** coded on top of **AdminLTE**, the
 
 ## Why `Django AdminLTE Theme`
 
-- Modern `Bootstrap` Design
+- Modern [Bootstrap](https://www.admin-dashboards.com/bootstrap-5-templates/) Design
 - `Responsive Interface`
 - `Minimal Template` overriding
 - `Easy integration`
@@ -43,7 +43,7 @@ $ pip install git+https://github.com/app-generator/django-admin-adminlte.git
 
 <br />
 
-> Add `admin_material` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
+> Add `admin_adminlte` application to the `INSTALLED_APPS` setting of your Django project `settings.py` file (note it should be before `django.contrib.admin`):
 
 ```python
     INSTALLED_APPS = (
@@ -104,23 +104,26 @@ Access the `admin` section in the browser: `http://127.0.0.1:8000/`
 
 <br />
 
-## Screenshots
+## [PRO Version](https://appseed.us/product/material-dashboard2-pro/django/)   
 
-![Django AdminLTE Theme - SignIN Page (crafted by AppSeed).](https://user-images.githubusercontent.com/51070104/206859978-d0aae8a7-9251-44ff-8090-c11b3669b18a.jpg)
+This design is a pixel-perfect [Bootstrap 5](https://www.admin-dashboards.com/bootstrap-5-templates/) Dashboard with a fresh, new design inspired by Google's Material Design. `Material Dashboard 2 PRO` is built with over 300 frontend individual elements, like buttons, inputs, navbars, nav tabs, cards, or alerts, giving you the freedom of choosing and combining.
+
+> Features: 
+
+- `Up-to-date Dependencies`
+- `Design`: [Django Theme Material2](https://github.com/app-generator/django-material-dashboard2-pro) - `PRO Version`
+- `Sections` covered by the design:
+  - **Admin section** (reserved for superusers)
+  - **Authentication**: `Django.contrib.AUTH`, Registration
+  - **All Pages** available in for ordinary users 
+- `Docker`, `Deployment`:
+  - `CI/CD` flow via `Render`
 
 <br />
 
-> [Django AdminLTE Theme](https://github.com/app-generator/django-admin-adminlte) - `Calendar Page`
-
-![Django AdminLTE Theme - Calendar Widget (crafted by AppSeed).](https://user-images.githubusercontent.com/51070104/206860019-c14536c2-60d1-40d6-99ef-c0efeafdddd1.jpg)
-
-<br />
-
-> [Django AdminLTE Theme](https://github.com/app-generator/django-admin-adminlte) - `Dark Mode`
-
-![Django AdminLTE Theme - Dark Mode Activated (crafted by AppSeed).](https://user-images.githubusercontent.com/51070104/206860071-70f9cd53-65f5-4f6f-a585-6a8340cdc69c.jpg)
+![Material Dashboard 2 Pro](https://user-images.githubusercontent.com/51070104/211141418-6b7886eb-6fb3-433e-91c9-2895c086099a.png)
 
 <br />
 
 ---
-**[Django AdminLTE Theme](https://github.com/app-generator/django-admin-adminlte)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**
+**[Django AdminLTE Theme](https://appseed.us/product/adminlte/django/)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**
