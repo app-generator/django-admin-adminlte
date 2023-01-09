@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.3] 2023-01-09
+### Changes
+
+- Auth Pages UX/UI (minor)
+- Meta Information Update (minor)
+
 ## [1.0.2] 2023-01-09
 ### Changes
 
