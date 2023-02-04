@@ -121,8 +121,8 @@ The theme used to style this starter provides the following files:
    |-- templates/                     # Root Templates Folder 
    |    |          
    |    |-- accounts/       
-   |    |    |-- sign-in.html         # Sign IN Page
-   |    |    |-- sign-up.html         # Sign UP Page
+   |    |    |-- login.html           # Sign IN Page
+   |    |    |-- register.html        # Sign UP Page
    |    |
    |    |-- includes/       
    |    |    |-- footer.html          # Footer component
@@ -136,7 +136,7 @@ The theme used to style this starter provides the following files:
    |    |
    |    |-- pages/       
    |         |-- index.html           # Dashboard Page
-   |         |-- settings.html        # Profile Page
+   |         |-- calendar.html        # Profile Page
    |         |-- *.html               # All other pages
    |    
    |-- ************************************************************************
