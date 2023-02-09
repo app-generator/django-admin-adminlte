@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.5] 2023-02-09
+### Changes
+
+- Full Theme Integration (all pages)
+  - AdminLTE `v3.2.0`
+
 ## [1.0.4] 2023-02-04
 ### Changes
 
