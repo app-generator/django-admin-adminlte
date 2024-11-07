@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [1.0.7] 2024-11-07
+### Changes
+
+- Update [Django Admin AdminLTE - Documentation](https://app-generator.dev/docs/products/django-libs/theme-adminlte.html) Link
+- Update [Django Admin AdminLTE - Sample Product](https://app-generator.dev/product/adminlte/django/) Link
+- Added [Getting Started with Django](https://app-generator.dev/docs/technologies/django/index.html) Link
+- Added [AdminLTE](https://app-generator.dev/docs/templates/bootstrap/adminlte.html) design mention
+
 ## [1.0.6] 2024-09-16
 ### Changes
 
