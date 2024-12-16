@@ -3,7 +3,7 @@
 ## [1.0.8] 2024-12-16
 ### Changes
 
-- Mention [Django App Generator - Volt Design](https://app-generator.dev/tools/django-generator/volt/)
+- Mention [Django App Generator - AdminLTE Design](https://app-generator.dev/tools/django-generator/adminlte/)
 
 ## [1.0.7] 2024-11-07
 ### Changes
