@@ -19,7 +19,7 @@ Modern template for **Django** built with **[AdminLTE](https://app-generator.dev
 
 ## [AdminLTE](https://app-generator.dev/product/adminlte/) Starters
 
-Pre-built starters for a coding dashboards and services (APIs, DataTables) with speed.
+Pre-built starters for coding dashboards and services (APIs, DataTables) with speed.
 
 ### [Django AdminLTE](https://app-generator.dev/product/adminlte/django/)
 
