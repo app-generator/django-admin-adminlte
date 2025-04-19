@@ -8,7 +8,7 @@ Modern template for **Django** built with **[AdminLTE](https://app-generator.dev
 
 <br />
 
-## **Features**
+## Features
 
 - [AdminLTE](https://app-generator.dev/product/adminlte/) Design Integration
   - Dashboard page
@@ -17,9 +17,11 @@ Modern template for **Django** built with **[AdminLTE](https://app-generator.dev
   
 <br />
 
-## Pre-built Starters
+## [AdminLTE](https://app-generator.dev/product/adminlte/) Starters
 
-### [Django AdminLTE](https://app-generator.dev/product/adminlte/django/) `FREE`
+Pre-built starters for a coding dashboards and services (APIs, DataTables) with speed.
+
+### [Django AdminLTE](https://app-generator.dev/product/adminlte/django/)
 
 > The FREE Version (MIT License) - [Live Demo](https://adminlte-django.appseed-srv1.com/).
 
@@ -35,7 +37,7 @@ Modern template for **Django** built with **[AdminLTE](https://app-generator.dev
 
 <br />
 
-## [Django AdminLTE](https://app-generator.dev/product/adminlte-pro/django/) `PRO`
+## [Django AdminLTE PRO](https://app-generator.dev/product/adminlte-pro/django/)
 
 > The premium version provides more features, priority on support, and is more often updated - [Live Demo](https://django-datta-pro.onrender.com/).
 
