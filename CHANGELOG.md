@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.13] 2025-04-25
+### [AdminLTE](https://app-generator.dev/product/adminlte/) Django Integration Changes
+
+- Update Demo Link: [Django AdminLTE Demo](https://django-adminlte.onrender.com/)
+
 ## [1.0.12] 2025-04-25
 ### [AdminLTE](https://app-generator.dev/product/adminlte/) Django Integration Changes
 

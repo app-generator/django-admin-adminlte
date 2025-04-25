@@ -23,7 +23,7 @@ Pre-built starters for coding dashboards and services (APIs, DataTables) with sp
 
 ### [Django AdminLTE](https://app-generator.dev/product/adminlte/django/)
 
-> The FREE Version (MIT License) - [Live Demo](https://adminlte-django.appseed-srv1.com/).
+> The FREE Version (MIT License) - [Live Demo](https://django-adminlte.onrender.com).
 
 - Simple, Easy-to-Extend Codebase
 - [AdminLTE](https://app-generator.dev/product/adminlte/) Integration 
