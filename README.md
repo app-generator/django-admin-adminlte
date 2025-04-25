@@ -39,7 +39,7 @@ Pre-built starters for coding dashboards and services (APIs, DataTables) with sp
 
 ## [Django AdminLTE PRO](https://app-generator.dev/product/adminlte-pro/django/)
 
-> The premium version provides more features, priority on support, and is more often updated - [Live Demo](https://django-datta-pro.onrender.com/).
+> The premium version provides more features, priority on support, and is more often updated - [Live Demo](https://django-adminlte-pro.onrender.com).
 
 - Simple, Easy-to-Extend Codebase
 - [AdminLTE](https://app-generator.dev/product/adminlte/) Design Integration 
