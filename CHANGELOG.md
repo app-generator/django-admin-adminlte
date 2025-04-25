@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.12] 2025-04-25
+### [AdminLTE](https://app-generator.dev/product/adminlte/) Django Integration Changes
+
+- Replace AppSeed with App-Generator
+
 ## [1.0.11] 2025-04-25
 ### [AdminLTE](https://app-generator.dev/product/adminlte/) Django Integration Changes
 
