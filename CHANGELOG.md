@@ -1,7 +1,7 @@
 # CHANGELOG
 
 ## [1.0.11] 2025-04-25
-### Changes
+### [AdminLTE](https://app-generator.dev/product/adminlte/) Django Integration Changes
 
 - Update RM Links (minor)
 
@@ -11,18 +11,18 @@
 - Update RM (minor)
 
 ## [1.0.9] 2025-04-19
-### Changes
+### [AdminLTE](https://app-generator.dev/product/adminlte/) Django Integration Changes
 
 - Update RM Links
   - [AdminLTE](https://app-generator.dev/product/adminlte/) Design Integration
 
 ## [1.0.8] 2024-12-16
-### Changes
+### [AdminLTE](https://app-generator.dev/product/adminlte/) Django Integration Changes
 
 - Mention [Django App Generator - AdminLTE Design](https://app-generator.dev/tools/django-generator/adminlte/)
 
 ## [1.0.7] 2024-11-07
-### Changes
+### [AdminLTE](https://app-generator.dev/product/adminlte/) Django Integration Changes
 
 - Update [Django Admin AdminLTE - Documentation](https://app-generator.dev/docs/products/django-libs/theme-adminlte.html) Link
 - Update [Django Admin AdminLTE - Sample Product](https://app-generator.dev/product/adminlte/django/) Link
@@ -30,7 +30,7 @@
 - Added [AdminLTE](https://app-generator.dev/docs/templates/bootstrap/adminlte.html) design mention
 
 ## [1.0.6] 2024-09-16
-### Changes
+### [AdminLTE](https://app-generator.dev/product/adminlte/) Django Integration Changes
 
 - Remove `length_is` filter
   - Deprecated in Django 5.1
