@@ -26,12 +26,20 @@ Pre-built starters for coding dashboards and services (APIs, DataTables) with sp
 > The FREE Version (MIT License) - [Live Demo](https://django-adminlte.onrender.com).
 
 - Simple, Easy-to-Extend Codebase
-- [AdminLTE](https://app-generator.dev/product/adminlte/) Integration 
-- Bootstrap Styling 
+- [AdminLTE](https://app-generator.dev/product/adminlte/) Design Integration 
+- [Bootstrap](https://app-generator.dev/docs/templates/bootstrap.html) CSS Styling 
+- Dynamic Tables - read [docs](https://app-generator.dev/docs/developer-tools/dynamic-datatables.html)
+- Dynamic API - read [docs](https://app-generator.dev/docs/developer-tools/dynamic-api.html)
+- Charts
+- [Django CLI Package](https://app-generator.dev/docs/developer-tools/django-cli/index.html)
+    - [Commit/rollback Git Changes](https://app-generator.dev/docs/developer-tools/django-cli/git-interface.html)
+    - `Backup & restore DB`
+    - [Interact with Django Core](https://app-generator.dev/docs/developer-tools/django-cli/query-django.html)
+    - `Manage Environment`
+    - `Manage Dependencies`
 - Session-based Authentication, Password recovery
 - DB Persistence: SQLite (default), can be used with MySql, PgSql
 - Docker, CI/CD for Render
-- Vite for assets management 
 
 ![Django AdminLTE - Modern template for Django Admin Section crafted on top of a modern Bootstrap, Open-Source Design.](https://user-images.githubusercontent.com/51070104/168842202-9b80a957-a375-4e6d-8247-2cc459267a86.png)
 
@@ -47,9 +55,9 @@ Pre-built starters for coding dashboards and services (APIs, DataTables) with sp
 - Dynamic Tables - read [docs](https://app-generator.dev/docs/developer-tools/dynamic-datatables.html)
 - Dynamic API - read [docs](https://app-generator.dev/docs/developer-tools/dynamic-api.html)
 - Charts
-- React Integration 
+- DB Persistence: SQLite (default), can be used with MySql, PgSql
 - Session-based Authentication, Password recovery
-- OAuth GitHub
+- OAuth GitHub, Google
 - DB Persistence: SQLite (default), can be used with MySql, PgSql
 - [Django CLI Package](https://app-generator.dev/docs/developer-tools/django-cli/index.html)
     - [Commit/rollback Git Changes](https://app-generator.dev/docs/developer-tools/django-cli/git-interface.html)
@@ -57,8 +65,6 @@ Pre-built starters for coding dashboards and services (APIs, DataTables) with sp
     - [Interact with Django Core](https://app-generator.dev/docs/developer-tools/django-cli/query-django.html)
     - `Manage Environment`
     - `Manage Dependencies`
-- Session-based Authentication, Password recovery
-- DB Persistence: SQLite (default), can be used with MySql, PgSql
 - Docker, CI/CD for Render
 
 ![Django AdminLTE - The premium version: API, Charts, React Intergration, Dynamic DT, and Docker Support.](https://github.com/user-attachments/assets/892dd62b-2127-4a8c-ba44-932999fdddbc)

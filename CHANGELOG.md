@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.0.14] 2025-04-28
+### [AdminLTE](https://app-generator.dev/product/adminlte/) Django Integration Changes
+
+- Update RM (minor)
+  - [Django AdminLTE](https://app-generator.dev/product/adminlte/django/) features list
+  - [Django AdminLTE PRO](https://app-generator.dev/product/adminlte-pro/django/) features list
+
 ## [1.0.13] 2025-04-25
 ### [AdminLTE](https://app-generator.dev/product/adminlte/) Django Integration Changes
 
